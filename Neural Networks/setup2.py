@@ -134,7 +134,7 @@ class pkg:
     labels = sub_df['class'].values
     data = all_data[index,:]
     if flatten:
-      data = data.reshape([-1, np.product(image_shape)])
+      data = data.reshape([-1, np.prod(image_shape)])
     return data, labels
 
   def get_train_data(flatten, all_data, metadata, image_shape):
