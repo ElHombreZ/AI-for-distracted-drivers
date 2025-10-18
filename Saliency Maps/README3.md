@@ -1,0 +1,1 @@
+All the content regarding the setup and the visualization tool file were not written by me. I t was provided to us in order to execute the necessary evaluation/map/matrix code. NumPy 2.0 does not support one attribute, so an older version of numpy has to be used or to change the code directly
