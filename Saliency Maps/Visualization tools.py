@@ -78,3 +78,9 @@ def plot_vanilla_saliency_of_a_model(model, X_input, image_titles):
         ax[i].axis('off')
     plt.tight_layout()
     plt.show()
+
+
+
+# Observing saliency map
+imgs, imgs_labels = getImageSamples()
+plot_vanilla_saliency_of_a_model(cnn, imgs, imgs_labels)
